@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+/*********** CORE ***********/
+ul li { list-style:none; }
+ul { margin:0px; padding:0px; }
+.inner { padding:20px; }
+@media (min-width: 768px) {
+.tabs-left { width:20%; float:left; }
+.tabs-right { width:80%;float:left; }
+.tabs-left > ul > li > a { color:#FFF; padding:10px; display:block; background:#666; border-bottom:1px solid #fff; }
+.tabs-right > ul > li > a { display:none; }
+}
+@media (max-width: 768px) {
+	.tabs-left { display:none; }
+}
