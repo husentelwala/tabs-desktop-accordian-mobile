@@ -6,6 +6,7 @@ ul { margin:0px; padding:0px; }
 .inner { padding:20px; }
 .inner { display:none; }
 .hide { display:none !important; }
+.show { display:block !important; }
 @media (min-width: 768px) {
 .tabs-left { width:20%; float:left; }
 .tabs-right { width:80%;float:left; }
