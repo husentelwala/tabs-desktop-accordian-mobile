@@ -3,7 +3,7 @@
 /*********** CORE ***********/
 ul li { list-style:none; }
 ul { margin:0px; padding:0px; }
-.inner { padding:20px; }
+.inner { padding:20px; display:none; }
 @media (min-width: 768px) {
 .tabs-left { width:20%; float:left; }
 .tabs-right { width:80%;float:left; }
