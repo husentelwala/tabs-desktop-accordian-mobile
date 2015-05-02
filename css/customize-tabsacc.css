@@ -8,6 +8,7 @@ ul { margin:0px; padding:0px; }
 .hide { display:none !important; }
 .show { display:block !important; }
 .eshow { display:block; }
+.ehide { display:none; }
 @media (min-width: 768px) {
 .tabs-left { width:20%; float:left; }
 .tabs-right { width:80%;float:left; }
