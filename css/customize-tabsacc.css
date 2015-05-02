@@ -3,7 +3,8 @@
 /*********** CORE ***********/
 ul li { list-style:none; }
 ul { margin:0px; padding:0px; }
-.inner { padding:20px; display:none; }
+.inner { padding:20px; }
+.inner { display:none; }
 @media (min-width: 768px) {
 .tabs-left { width:20%; float:left; }
 .tabs-right { width:80%;float:left; }
@@ -12,4 +13,4 @@ ul { margin:0px; padding:0px; }
 }
 @media (max-width: 768px) {
 	.tabs-left { display:none; }
-}
+} 
